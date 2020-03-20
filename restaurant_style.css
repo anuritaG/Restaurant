@@ -1,0 +1,33 @@
+  	.centre
+{
+  background-color: #eeeeee;
+  width:100%;
+  height: 100%;
+
+}
+.checked
+{
+  color:orange; 
+}
+
+  	.contain
+  	{
+  		width:100%;
+  		height: 25rem;
+  		border:2px solid;
+  		overflow: hidden;
+      padding: 0;
+  	}
+   html,body
+    {
+      padding:0;
+      margin: 0;
+     
+      height: 100%;
+    }
+    #myCarousel
+    {
+      border:2px solid black;
+      width: 100%;
+    }
+ 

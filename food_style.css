@@ -1,0 +1,58 @@
+	body {
+    margin: 0;
+    padding: 0;
+   }
+.contain{
+  margin-left:  0;
+  margin-right: 0;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: green;
+  height:10rem;
+  
+
+  padding: 0;
+  overflow:hidden;
+
+}
+
+.image
+{
+	/*width: 25%;*/
+
+	height: 10rem;
+	float: left;
+	padding: 0;
+	border: 2px solid;
+	 display: inline;
+}
+.card-c
+{
+	display: flex;
+	flex-direction: column;
+}
+.card-text
+{
+
+	float: left;
+}
+.checked
+{
+  color:orange;
+}
+.image_card
+{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	border:2px solid;
+	height:9rem;
+	width: 15rem;
+}
+.card
+{
+	box-shadow: 5px 10px #888888;
+	width:96%;
+	margin:2% auto;
+	margin-bottom: 5px;
+}

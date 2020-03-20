@@ -1,0 +1,27 @@
+use multi_rest;
+db.food.insert({"name":"Chowmein","tags":["Chineese","Japaneese"],"Restaurants":[{"rest_name":"Chowman","price":250.00},{"rest_name":"Barbeque Nation","price":300.00}],"desc":"A seasoned stew of shredded or diced meat,mushrooms and vegetables served with fried noodles.","food_image":["chow1.jpg","chow2.jpg","chow3.jpg","chow4.jpg"]})
+db.food.insert({"name":"Pizza","tags":["Italian"],"Restaurants":[{"rest_name":"Pizza Hut","price":450.00},{"rest_name":"Domino's","price":300.00}],"desc":"A savoury dish of Italian origin consisting of usually rounded,flatened base of wheat-based dough topped with tomatoes,cheese etc","food_image":["pizza1.jpg","pizza2.jpg","pizza3.jpg"]})
+db.food.insert({"name":"Biryani","tags":["Indian"],"Restaurants":[{"rest_name":"Kareem's","price":450.00},{"rest_name":"Oudh 1590","price":600.00},{"rest_name":"Amenia","price":500},{"rest_name":"Arsalan","price":350},{"rest_name":"haji Sahabe","price":200}],"desc":"Long grained rice flavoured with exotic spices","food_image":["biryani1.jpg","biryani2.jpg"]})
+ db.food.insert({"name":"Lasagne","tags":["Italian"],"Restaurants":[{"rest_name":"Blue Mug","price":450.00},{"rest_name":"Cafe Coffee O Kobita","price":200.00}],"desc":"Italian cuisine dish made with stacked layers of this flat pasta alternated with meat,tomato sauce,vegetables,cheese and seasoning","food_image":["lasagne1.jpg","lasagne2.jpg","lasagne3.jpg"]})
+  db.food.insert({"name":"Sundae","tags":["dessert","ice-cream","American"],"Restaurants":[{"rest_name":"Mama Mia","price":450.00},{"rest_name":"Baskin Robbins","price":600.00},{"rest_name":"Keventer's","price":500},{"rest_name":"Barbeque Nation","price":350}],"desc":"Sundae is an ice-cream dessert topped with sauce or syrup or toppings like whipped cream,marshmellows etc","food_image":["sundae1.jpg","sundae2.jpg","sundae3.jpg","sundae4.jpg","sundae5.jpg"]})
+   db.restaurant.insert({"name":"Barbeque Nation","location":"IB Block,Sector III,Bidhannagar,Kolkata","rating":5,"image":["rest2.jpg","rest3.jpg","rest4.jpg"],"service":["GrubHub","Deliveroo","Zomato","Uber eats"]})
+   db.restaurant.insert({"name":"Chowman","location":"Barrackpore,Kolkata","rating":4,"image":["rest3.jpg","rest5.jpg","rest4.jpg"],"service":["GrubHub","Deliveroo","Zomato","Swiggy"]})
+   db.restaurant.insert({"name":"Pizza Hut","location":"City Centre2,Block C,New Town,Kolkata","rating":4,"image":["rest5.jpg","rest2.jpg","rest4.jpg"],"service":["GrubHub","Food panda","Zomato","Swiggy"]})
+   db.restaurant.insert({"name":"Domino's","location":"City CentreI,Sector I,Salt Lake,Kolkata","rating":4,"image":["rest5.jpg","rest2.jpg","rest4.jpg"],"service":["GrubHub","Food panda","Zomato"]})
+    db.restaurant.insert({"name":"Kareem's","location":"GP Block,Sector V,Salt Lake,Kolkata","rating":5,"image":["rest5.jpg","rest2.jpg","rest4.jpg"],"service":["GrubHub","Food panda","Zomato","Deliveroo"]})
+
+ db.restaurant.insert({"name":"Oudh 1590","location":"Deshopriyo Park,Kolkata","rating":5,"image":["rest4.jpg","rest2.jpg","rest3.jpg"],"service":["GrubHub","Food panda","Swiggy","Deliveroo"]})
+
+ db.restaurant.insert({"name":"Amenia","location":"GolPark,Kolkata","rating":4,"image":["rest5.jpg","rest2.jpg","rest4.jpg"],"service":["GrubHub","Food panda","Swiggy","Deliveroo"]})
+
+ db.restaurant.insert({"name":"Arsalan","location":"Ruby More,Kolkata","rating":3,"image":["rest3.jpg","rest2.jpg","rest4.jpg"],"service":["GrubHub","Food panda","Swiggy"]})
+
+ db.restaurant.insert({"name":"Haji Saheba","location":"Esplanade,Kolkata","rating":2,"image":["rest2.jpg","rest5.jpg","rest4.jpg"],"service":["Food panda","Swiggy"]})
+
+ db.restaurant.insert({"name":"Blue Mug","location":"Jodhpur Park,Kolkata","rating":4,"image":["rest2.jpg","rest5.jpg","rest4.jpg"],"service":["Food panda","Swiggy","Zomato"]})
+
+ db.restaurant.insert({"name":"Cafe Coffee O Kobita","location":"Shyambazar,Kolkata","rating":5,"image":["rest4.jpg","rest5.jpg","rest3.jpg"],"service":["Food panda","Swiggy","Zomato","Uber eats"]})
+
+ db.restaurant.insert({"name":"Mama Mia","location":"Circular Road,Ballygunge,Kolkata","rating":4,"image":["rest4.jpg","rest5.jpg","rest3.jpg"],"service":["Food panda","Swiggy","Zomato","Uber eats"]})
+ db.restaurant.insert({"name":"Baskin Robbin's","location":"IB Block,Sector III,Kolkata","rating":5,"image":["rest5.jpg","rest4.jpg","rest3.jpg"],"service":["Food panda","Deliveroo","Zomato","Uber eats"]})
+ db.restaurant.insert({"name":"Keventers","location":"Mani Square,Kolkata","rating":5,"image":["rest4.jpg","rest5.jpg","rest3.jpg"],"service":["Food panda","Deliveroo","Zomato","Uber eats"]})
